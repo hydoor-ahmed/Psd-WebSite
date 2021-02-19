@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+:root {
+  --min-color: #f65803;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 2000px;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.nav-menu {
+  height: 60px;
+  background: transparent;
+  line-height: 60px;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(25, 33, 49, 0.852), rgba(25, 33, 49, 0.852)), url("/images/macbook-925614.png");
+  background-size: cover;
+}
+
+.nav-menu .img {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(25, 33, 49, 0.852), rgba(25, 33, 49, 0.852)), url("/images/macbook-925614.png");
+  background-size: cover;
+}
+
+.nav-menu h1 {
+  margin: 0px;
+  float: left;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-menu h1 span {
+  color: var(--min-color);
+}
+
+.nav-menu h4 {
+  margin: 0px;
+  float: right;
+  color: white;
+  font-weight: 500;
+}
+.nav-menu h4 i {   padding-left: 16px; font-size: 18px;   }
+
+.header {
+  width: 100%;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header h2 {
+  color: white;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.header h2 span {
+  color: var(--min-color);
+}
+
+.header p {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 55px;
+  transform: translateX(50px);
+}
+
+.header button {
+  transform: translateX(150px);
+  outline: none;
+  cursor: pointer;
+}
+
+.header .btn-1 {
+  font-size: 20px;
+  padding: 11px 60px;
+  background-color: var(--min-color);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  transition: all 0.7s ease-in-out;
+}
+.header .btn-1:hover {
+  background: transparent;
+  border: 1px solid #9f9f9f;
+}
+
+.header button:last-child {
+  font-size: 20px;
+  padding: 11px 50px;
+  background-color: transparent;
+  border: 1px solid #9f9f9f;
+  border-radius: 8px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  transform: translateX(183px);
+  transition: all 0.7s ease-in-out;
+}
+.header button:last-child:hover {
+  background: var(--min-color);
+  border: 1px solid var(--min-color);
+}
+.header .arrow {
+  position: absolute;
+  top: 95%;
+  left: 52%;
+  transform: translate(-50%,-50%);
+}
+.header i {
+  color: white;
+  padding: 6px 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  font-size: 36px;
+  transition: all .7s;
+}
+.header i:hover {
+  background: rgba(153, 153, 153, 0.472);
+
+}
+
+.features {
+  padding: 60px 0;
+}
+.features .box {
+  width: 22%;
+  float: left;
+  margin-right: 4%;
+  text-align: center;
+}
+.features .box:last-child {
+  margin-right: 0;
+}
+.features .box i {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #c0c0c0;
+  border-radius: 50%;
+  line-height: 100px;
+  padding: 12px;
+  color: var(--min-color);
+  transition: all .9s;
+}
+.features .box i:hover {
+  color: white;
+  background-color: var(--min-color);
+  border: 1px solid var(--min-color);
+}
+.features .box h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2c313f;
+}
+.features .box p {
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #777;
+  line-height: 26px;
+}

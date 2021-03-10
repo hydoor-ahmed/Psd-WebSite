@@ -1,8 +1,8 @@
-$("body").niceScroll({
-    cursorcolor: "#f65803",
-    cursorwidth: "12px",
-    cursorborder: "none"
-});
+ $("body").niceScroll({
+     cursorcolor: "#f65803",
+     cursorwidth: "8px",
+     cursorborder: "none"
+ });
 
 $(".arrow i").click(function () {
    
@@ -11,9 +11,3 @@ $(".arrow i").click(function () {
     }, 1000);
 
 });
-
-
-
-
-
-
